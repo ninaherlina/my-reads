@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# MyReads Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The application was created with create-react-app and the started template of MyReads project from Udacity including the Books API.
 
-## Available Scripts
+# Project Overview
 
-In the project directory, you can run:
+MyReads project is a React app that allows user to search books and categorized the books in 3 different shelves. The user can move around the books in between shelves.
 
-### `yarn start`
+# Project Specification
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I was given the starter static template and my job is to seperate the code into different components and add functionality to the code to make it interactive.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# The App Functionality
 
-### `yarn test`
+The app has a main page that shows 3 different categories/ shelves. Currently Reading, Want To Read and Read. There's a Search/ + icon/ button at the bottom's right corner that link to a Search page where user can search for books. The user can move the books to any shelves.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# How to install and run the project
 
-### `yarn build`
+To get started with the project, download or clone the repository into your local machine/ computer:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+$ git clone https://github.com/ninaherlina/react-my-reads.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In the Project folder:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install all project dependencies with "npm install"
 
-### `yarn eject`
+Start the Project with "npm start"
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Important
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md](SEARCH_TERMS.md). That list of terms are the _only_ terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
