@@ -18,7 +18,7 @@ The app has a main page that shows 3 different categories/ shelves. Currently Re
 
 To get started with the project, download or clone the repository into your local machine/ computer:
 
-$ git clone https://github.com/ninaherlina/react-my-reads.git
+$ git clone https://github.com/ninaherlina/my-reads.git
 
 In the Project folder:
 
